@@ -707,3 +707,12 @@ footer a:hover{text-decoration:underline}
   color: var(--orange-deep);
   background: var(--orange-pale);
 }
+
+.card, .org-card {
+  transition: all 0.3s ease;
+}
+
+.card:hover, .org-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
